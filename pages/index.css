@@ -1,5 +1,9 @@
 @import url(../vendor/normalize.css);
 
+<<<<<<< HEAD
 @import url(../vendor/fonts/fonts.css);
+=======
+@import url(../fonts/fonts.css);
+>>>>>>> 8c7967399c779f1edf3e618f1f10668cfc088082
 
 @import url(../blocks/page/page.css);
