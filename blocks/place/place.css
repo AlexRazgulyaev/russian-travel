@@ -1,0 +1,8 @@
+.place {
+  max-width: 100%;
+  display: grid;
+  gap: 46px;
+  grid-template-areas:
+    "title website"
+    "image paragraph";
+}
