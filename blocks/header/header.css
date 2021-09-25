@@ -1,8 +1,22 @@
 .header {
   padding-top: 28px;
-  max-width: 1184px;
-  min-height: 52px;
+  max-width: calc(100vw - 96px);
+  min-height: max-content;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
+
+@media (max-width: 1023px) {
+  .header {
+    max-width: calc(100vw - 48px);
+  }
+}
+
+@media (max-width: 767px) {
+  .header {
+    max-width: calc(100vw - 32px);
+    min-height: 42px;
+  }
+}
+
