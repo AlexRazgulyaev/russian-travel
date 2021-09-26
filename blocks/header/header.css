@@ -1,6 +1,6 @@
 .header {
   padding-top: 28px;
-  max-width: calc(100vw - 96px);
+  max-width: calc(100% - 96px);
   min-height: max-content;
   display: flex;
   justify-content: space-between;
@@ -9,13 +9,13 @@
 
 @media (max-width: 1023px) {
   .header {
-    max-width: calc(100vw - 48px);
+    max-width: calc(100% - 48px);
   }
 }
 
 @media (max-width: 767px) {
   .header {
-    max-width: calc(100vw - 32px);
+    max-width: calc(100% - 32px);
     min-height: 42px;
   }
 }

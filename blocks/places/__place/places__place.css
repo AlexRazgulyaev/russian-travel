@@ -1,3 +1,15 @@
 .places__place {
   margin-bottom: 80px;
 }
+
+@media (max-width: 1023px) {
+  .places__place {
+    margin-bottom: 73px;
+  }
+}
+
+@media (max-width: 767px) {
+  .places__place {
+    margin-bottom: 50px;
+  }
+}

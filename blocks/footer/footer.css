@@ -6,3 +6,16 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (max-width: 1023px) {
+  .footer {
+    max-width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    max-width: calc(100% - 32px);
+    flex-direction: column;
+  }
+}
