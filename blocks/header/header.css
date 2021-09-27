@@ -1,6 +1,6 @@
 .header {
   padding-top: 28px;
-  max-width: calc(100% - 96px);
+  max-width: 1184px;
   min-height: max-content;
   display: flex;
   justify-content: space-between;
