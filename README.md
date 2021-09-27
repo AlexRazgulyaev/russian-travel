@@ -1,5 +1,5 @@
 # Проектная работа №3: Путешествие по России
-Alt-H1
+
 ------
 [Путешествие по России](https://alexrazgulyaev.github.io/russian-travel/index.html)
 ## Обзор
@@ -32,5 +32,5 @@ Alt-H1
 
 ---
 
-&copy Alex Razgulyaev
+&copy; Alex Razgulyaev
 
