@@ -3,21 +3,3 @@
   min-height: 100%;
   background-size: cover;
 }
-
-/*@media (max-width: 1279px) {
-  .photo-grid__item {
-    max-width: 300px;
-  }
-}
-
-@media (max-width: 925px) {
-  .photo-grid__item {
-    max-width: 352px;
-  }
-}
-
-@media (max-width: 767px) {
-  .photo-grid__item {
-    max-width: 288px;
-  }
-}*/
