@@ -1,15 +1,16 @@
-.content__photo-grid {
+.content__margins {
   margin: 0 auto 92px;
 }
 
 @media (max-width: 1023px) {
-  .content__photo-grid {
+  .content__margins {
     margin-bottom: 88px;
   }
 }
 
 @media (max-width: 767px) {
-  .content__photo-grid {
+  .content__margins {
     margin-bottom: 64px;
   }
 }
+

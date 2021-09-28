@@ -5,9 +5,7 @@
 
 @media (max-width: 767px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    margin-bottom: 48px;
   }
 }
