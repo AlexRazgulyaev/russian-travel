@@ -1,5 +1,18 @@
 .comments__container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 19px;
+}
+
+@media (max-width: 1023px) {
+  .comments__container {
+    width: calc(100% - 278px);
+    gap: 48px;
+  }
+}
+
+@media (max-width: 767px) {
+  .comments__container {
+    width: 100%;
+  }
 }

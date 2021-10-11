@@ -1,6 +1,18 @@
 .video__container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(580px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 18px;
   width: 100%;
+}
+
+@media (max-width: 1279px) {
+  .video__container {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .video__container {
+    gap: 8px;
+  }
 }

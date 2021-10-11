@@ -4,3 +4,15 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media (max-width: 1023px) {
+  .video {
+    width: calc(100% - 48px);
+  }
+}
+
+@media (max-width: 767px) {
+  .video {
+    width: calc(100% - 32px);
+  }
+}
